@@ -31,6 +31,14 @@
       <Name>Fact Contrato.dim</Name>
       <FullPath>Fact Contrato.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Cliente Mart 1.dim</Name>
+      <FullPath>Cliente Mart 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cuarto Mart 1.dim</Name>
+      <FullPath>Cuarto Mart 1.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
