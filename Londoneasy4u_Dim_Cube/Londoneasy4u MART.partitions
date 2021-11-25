@@ -1,0 +1,105 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="74a5f3d6-d858-4e6e-a72a-32719a67fa50" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Londoneasy4u MART</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Contrato</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1665aa2f-907c-4986-8f96-52cd4abb9c41">
+          <ID>Fact Contrato</ID>
+          <Name>Fact Contrato</Name>
+          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="124c9fc5-b6b0-45b8-aa68-181332a424e1">
+            <DataSourceViewID>Londoneasy4u MART</DataSourceViewID>
+            <TableID>dbo_fact_contrato</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Contrato 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e37fa489-43a7-45ca-b0d5-a6735bc496e5">
+          <ID>Fact Contrato</ID>
+          <Name>Fact Contrato</Name>
+          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5f610326-e6a4-4d7f-a01c-2945e0fa0089">
+            <DataSourceViewID>Londoneasy4u MART</DataSourceViewID>
+            <TableID>dbo_fact_contrato</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Cliente Mart</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="a8bc2de5-11fc-4908-b69e-ae6021e2b78e">
+          <ID>Cliente Mart</ID>
+          <Name>Cliente Mart</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="29c83a68-ae37-4f37-8efe-269ad46304af">
+            <DataSourceViewID>Londoneasy4u MART</DataSourceViewID>
+            <TableID>dbo_cliente_mart</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Cliente Mart 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d740dbcd-cbdc-41a0-a163-c0102e92c594">
+          <ID>Cliente Mart</ID>
+          <Name>Cliente Mart</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7ac9c147-067a-46a2-82dc-b0491371ed15">
+            <DataSourceViewID>Londoneasy4u MART</DataSourceViewID>
+            <TableID>dbo_cliente_mart</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Cuarto Mart</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="da290c3a-38a4-4436-aef8-93f71fd4bf24">
+          <ID>Cuarto Mart</ID>
+          <Name>Cuarto Mart</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bc765110-a6af-4f9f-af4b-97261ea5dbc3">
+            <DataSourceViewID>Londoneasy4u MART</DataSourceViewID>
+            <TableID>dbo_cuarto_mart</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

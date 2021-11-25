@@ -1,0 +1,4 @@
+ID_TipoCuarto,nombre,amueblado,servicio_prv
+1,Single Room,0,0
+2,Double Room,1,0
+3,Duplex Room,1,1

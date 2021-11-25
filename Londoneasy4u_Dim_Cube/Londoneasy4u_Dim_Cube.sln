@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Londoneasy4u_Dim_Cube", "Londoneasy4u_Dim_Cube.dwproj", "{74A9A0BA-68FE-498C-B388-0CD0A725548A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74A9A0BA-68FE-498C-B388-0CD0A725548A}.Development|Default.ActiveCfg = Development
+		{74A9A0BA-68FE-498C-B388-0CD0A725548A}.Development|Default.Build.0 = Development
+		{74A9A0BA-68FE-498C-B388-0CD0A725548A}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C168948-407E-411F-A95C-273DB6626CF9}
+	EndGlobalSection
+EndGlobal

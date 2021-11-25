@@ -1,0 +1,1079 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="161535ed-d696-4f4a-b78c-ef476ffbc036" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact Contrato</ID>
+  <Name>Fact Contrato</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-944" scrolltop="21" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="10583" y="10954" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="fact_contrato" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3704" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000780e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_fact_contrato" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="cliente_mart" left="152" top="7400" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3440" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000700d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_cliente_mart" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="cuarto_mart" left="6124" top="0" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3889" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000310f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_cuarto_mart" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1473" top="4700" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fact_contrato-cliente_mart]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1872" y="7400" />
+              <point x="1872" y="5000" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3424" top="2101" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fact_contrato-cuarto_mart]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="22" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6124" y="2500" />
+              <point x="3724" y="2500" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-944</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>21</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>85</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9cf0c34b-c29d-4486-a4f7-e2d401d663ee">
+    <DataSourceViewID>Londoneasy4u MART</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="ddb6ecf1-61cb-47ce-8787-addb3cf745ff">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="eae98702-50f7-47fd-9ba0-948cb69de012">
+      <ID>SK Cliente</ID>
+      <Name>SK Cliente</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1d17c9d9-efad-4870-b6fe-65f06418d98d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c9dc23b9-24f3-40d7-b9c3-82ffd5d2b36e">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>SK_Cliente</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="a0b13047-97cb-4f28-9cde-2aa602be3fa9">
+        <DataType>WChar</DataType>
+        <DataSize>511</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b8d5f810-757c-4de4-bf2a-cabce4984cb6">
+          <TableID>dbo_fact_contrato</TableID>
+          <ColumnID>nombre_completo</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7621f8e3-eb83-4f7b-a4b6-5b01a734d8ec">
+          <AttributeID>Nacionalidad</AttributeID>
+          <Name>Nacionalidad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="075a5616-af80-4bb2-9f28-70f0fc0e35a1">
+          <AttributeID>Origen Cliente</AttributeID>
+          <Name>Origen Cliente</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="40126e2f-9eed-47a5-98a4-f8bcb0f2d2fd">
+          <AttributeID>Telefono</AttributeID>
+          <Name>Telefono</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8e85994c-b619-49dc-b441-e59db7a08bcb">
+          <AttributeID>Correo</AttributeID>
+          <Name>Correo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="91bb6608-cbbc-464a-a1ac-b1cac5729e6b">
+          <AttributeID>Fecha Nac</AttributeID>
+          <Name>Fecha Nac</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="98f92af1-a9b6-4455-b360-a0c750df824f">
+          <AttributeID>Edad</AttributeID>
+          <Name>Edad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="416c64a5-6126-4f42-bacb-80c50de4c120">
+          <AttributeID>Ocupacion</AttributeID>
+          <Name>Ocupacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="05dea3df-da1a-4c09-9b4f-d72ac54493ea">
+          <AttributeID>Sexo</AttributeID>
+          <Name>Sexo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bb8fc5de-acae-4cb9-85c2-0e2ca2a6ed95">
+          <AttributeID>Nombre Cuarto</AttributeID>
+          <Name>Nombre Cuarto</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="576a4c6d-af8a-42a4-acc1-2c23a1c93e6b">
+          <AttributeID>Direccion</AttributeID>
+          <Name>Direccion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f93d472c-8dd2-4710-b1de-b3aa3ea56538">
+          <AttributeID>Piso</AttributeID>
+          <Name>Piso</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a3b5440a-df97-47d6-8527-f072f3fb14b2">
+          <AttributeID>Precio</AttributeID>
+          <Name>Precio</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a3f0b732-3176-4354-b1d4-b0cd21831c99">
+          <AttributeID>Categoria Cuarto</AttributeID>
+          <Name>Categoria Cuarto</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bd9d2a3d-c84b-47a8-bb39-d4c3cfa9cf6f">
+          <AttributeID>Sk Zona</AttributeID>
+          <Name>Sk Zona</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2baf2bc2-9b37-4a83-8c84-6f2ddd634395">
+          <AttributeID>Nombre Zona</AttributeID>
+          <Name>Nombre Zona</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="69831fef-a4a6-45f6-853d-a7f10e991707">
+          <AttributeID>Sk Tipo Cuarto</AttributeID>
+          <Name>Sk Tipo Cuarto</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="94fea23f-f683-4f92-87b1-28803a43383c">
+          <AttributeID>Nombre Tipo Cuarto</AttributeID>
+          <Name>Nombre Tipo Cuarto</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9039d5ce-87c1-4d89-b5b4-711037da35e2">
+          <AttributeID>Amoblado</AttributeID>
+          <Name>Amoblado</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e9455e76-f312-4337-9676-3cd6968cdc81">
+          <AttributeID>Baño</AttributeID>
+          <Name>Baño</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1f6c8850-3ee2-408a-987e-d852809183db">
+          <AttributeID>Fec Inicio</AttributeID>
+          <Name>Fec Inicio</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="598835ce-c275-4c43-a2cb-c6ea6b30cd45">
+          <AttributeID>Fec Final</AttributeID>
+          <Name>Fec Final</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2a865f08-7201-49e5-ae89-a23b0a76dc1b">
+          <AttributeID>Renovacion</AttributeID>
+          <Name>Renovacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5b5cd9f4-c8a8-4c9e-a60e-66fa536cd242">
+          <AttributeID>Nombre Completo</AttributeID>
+          <Name>Nombre Completo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ff4ae8a0-801f-4f39-a42e-f04cd4733a18">
+          <AttributeID>Cliente Mart - Nacionalidad</AttributeID>
+          <Name>Cliente Mart - Nacionalidad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c5a1d2d4-3cf8-49de-8c20-83e2f89d973b">
+          <AttributeID>Cliente Mart - Origen Cliente</AttributeID>
+          <Name>Cliente Mart - Origen Cliente</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="78b16a53-0aed-41a5-a829-60cc304faf79">
+          <AttributeID>Cliente Mart - Telefono</AttributeID>
+          <Name>Cliente Mart - Telefono</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fa5498e9-6fbd-419f-9a1f-bf08ac47a636">
+          <AttributeID>Cliente Mart - Correo</AttributeID>
+          <Name>Cliente Mart - Correo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e27a4468-8c92-4132-97c5-dd515b57a85d">
+          <AttributeID>Cliente Mart - Fecha Nac</AttributeID>
+          <Name>Cliente Mart - Fecha Nac</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4f4e534f-020a-4945-a5c2-000bfa0a3d4f">
+          <AttributeID>Cliente Mart - Edad</AttributeID>
+          <Name>Cliente Mart - Edad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8740d248-2352-458e-b545-1eb3fa1e1eb8">
+          <AttributeID>Cliente Mart - Ocupacion</AttributeID>
+          <Name>Cliente Mart - Ocupacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b21cac07-033d-49ae-add8-d739b435d38f">
+          <AttributeID>Cliente Mart - Sexo</AttributeID>
+          <Name>Cliente Mart - Sexo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d70ef01d-a631-478a-a290-33f69f2ef48a">
+          <AttributeID>Cuarto Mart - Id</AttributeID>
+          <Name>Cuarto Mart - Id</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ec0ec8fe-33b8-46ec-9602-de1772545e74">
+      <ID>Nacionalidad</ID>
+      <Name>Nacionalidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dac6ae4f-380c-4d6f-9593-f73dbe87256a">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cc735089-8da3-43c6-b448-f85ccf652ee8">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>nacionalidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="23d5f637-44d7-43dd-bddf-9f1f3a95c597">
+      <ID>Origen Cliente</ID>
+      <Name>Origen Cliente</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1fd86490-16dc-4626-8201-877ee64ef331">
+          <DataType>WChar</DataType>
+          <DataSize>18</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5143ed4a-6a56-4359-9b64-0f7ab81b5ac8">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>origen_cliente</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e06086cc-c29f-4cbe-9ca5-f105eaecd0c9">
+      <ID>Telefono</ID>
+      <Name>Telefono</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="52e217e8-85a0-41bc-b066-ee36042a9196">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a33ab3df-f015-435a-8c90-6c2242a37e21">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>telefono</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f316c5f0-0c9f-4658-ad4c-c19934ed8ca3">
+      <ID>Correo</ID>
+      <Name>Correo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4f294738-8cbd-4bc4-bd5d-5357c4a4a25e">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce209d6e-491c-4318-9e3a-c72371131412">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>correo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b1d1e58d-86de-4f8e-9597-f7bc92ca0818">
+      <ID>Fecha Nac</ID>
+      <Name>Fecha Nac</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="948208a9-26c7-4f10-834a-bc745517592f">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5e77c676-4c25-4354-80f1-3b8645fbf1a4">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>fecha_nac</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f3db1502-59f3-4f37-bcb5-0d9cf03964eb">
+      <ID>Edad</ID>
+      <Name>Edad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="25de7500-646e-4a0e-a436-44038fb4754c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6e229e5c-1f2f-486c-88c1-1efddd6dfe1e">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>edad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="98e0119b-8690-4832-9bbd-cceed11aba42">
+      <ID>Ocupacion</ID>
+      <Name>Ocupacion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c5dbea21-700a-4a3e-820f-549a195c60cd">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="13263cbc-ed70-4db8-8c26-cde2b52f1154">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>ocupacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="02e51b2e-e407-4cb3-8d96-7412b85b55cf">
+      <ID>Sexo</ID>
+      <Name>Sexo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ba156b98-5ddc-435b-ad79-5f7e6f9d109e">
+          <DataType>WChar</DataType>
+          <DataSize>9</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="07f1b763-f230-432f-b7c0-146dfab9d8d9">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>sexo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ceda2f04-880e-4d9f-bc26-85c77dbc9115">
+      <ID>Nombre Cuarto</ID>
+      <Name>Nombre Cuarto</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="88b92292-c68d-45ec-8765-d74961296f21">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f8698d49-847e-42c8-a8d0-fa8532996d4d">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>nombre_cuarto</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a55f9c15-b5e3-4db7-8d7d-77aa11ae798b">
+      <ID>Direccion</ID>
+      <Name>Direccion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="354aac8f-4970-4028-b6fe-929a09078d2e">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c37ed2eb-24c4-4465-8389-74bd78dc3483">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>direccion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4eae817e-45e4-4c71-b930-d3664dbce17c">
+      <ID>Piso</ID>
+      <Name>Piso</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e10f9ffa-f34f-4231-ba31-1ad8782695fc">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="06356f85-777c-41a8-af00-90d916a757b8">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>piso</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="de74a6c0-58d8-4d9c-a8c5-a955fa38577d">
+      <ID>Precio</ID>
+      <Name>Precio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6461798f-7b4e-4abe-84a8-dd77613fb852">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0d2c8c90-7f12-41b5-a9d3-bf66838030c9">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>precio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9febf8d0-98b5-48f7-84e7-0bd43f46d631">
+      <ID>Categoria Cuarto</ID>
+      <Name>Categoria Cuarto</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2156c8b2-a712-4662-8366-51cbdf64f82a">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f1cc32f8-d4bd-411b-9e36-0d8a0a8de595">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>categoria_cuarto</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9d0fafac-b456-43cf-91e4-8695793fc47b">
+      <ID>Sk Zona</ID>
+      <Name>Sk Zona</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c0f9a15d-a22e-4c25-93ab-aa69ce96bd28">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="593a9b2f-3b1a-4834-8d87-162a30aa8233">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>sk_zona</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5e10f80f-ba78-476d-80c0-0cf1a5093292">
+      <ID>Nombre Zona</ID>
+      <Name>Nombre Zona</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b2e18076-9a8e-4bc4-a89e-3d458b75ebc1">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="09f15bdd-14de-4636-b2ea-a23cae5be7ef">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>nombre_zona</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aad02136-371f-48bd-a5e5-45d041129751">
+      <ID>Sk Tipo Cuarto</ID>
+      <Name>Sk Tipo Cuarto</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="40bba7d0-9f92-40a1-9c30-1f0311d9cb4b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="973a03b5-861e-421e-b590-7fe316ad0a81">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>sk_tipo_cuarto</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5b4d642b-b22c-40d4-8750-85fc7fb34dff">
+      <ID>Nombre Tipo Cuarto</ID>
+      <Name>Nombre Tipo Cuarto</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b0011f25-e99a-4776-8408-ecc3b4a84f92">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fd6fec6a-573d-4843-9883-360cbaba9744">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>nombre_tipo_cuarto</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a99ae03b-4c03-483d-b752-6fb7dd91ad7c">
+      <ID>Amoblado</ID>
+      <Name>Amoblado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f1ef31c5-f010-4cac-8799-b68ff33adb1e">
+          <DataType>WChar</DataType>
+          <DataSize>22</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="71e08f40-dcc3-482d-96a1-eabe6c0e62a8">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>amoblado</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5f50386c-1753-4973-891a-6f40ca7f655b">
+      <ID>Baño</ID>
+      <Name>Baño</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aee4a152-60a4-4c9e-8233-5db756c24572">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="81954177-a250-4dc6-abcd-5ef797e67753">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>baño</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8251d223-d9d2-49a1-9028-3f15293cae12">
+      <ID>Fec Inicio</ID>
+      <Name>Fec Inicio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d5d6ad43-2722-42bb-9ea1-6d2995c2f3c9">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="16486a4c-045b-4622-84d6-1a550c8904b4">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>fec_inicio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="af340a14-61b7-458b-98ee-18a99be2d3cc">
+      <ID>Fec Final</ID>
+      <Name>Fec Final</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1598556a-a6da-4069-8914-a2419a168555">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="19bf2cf1-9118-4929-b98f-69a57fb314b6">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>fec_final</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d88d218b-01d0-4139-b7af-fe810f5041c2">
+      <ID>Renovacion</ID>
+      <Name>Renovacion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7d97a70c-4b7b-4ae0-9f02-9e57e2915997">
+          <DataType>WChar</DataType>
+          <DataSize>21</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c69a6662-4707-4251-8c77-a930efa28646">
+            <TableID>dbo_fact_contrato</TableID>
+            <ColumnID>renovacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c8f787b4-e0a3-4492-a440-bb3405a87fef">
+      <ID>Nombre Completo</ID>
+      <Name>Nombre Completo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="65706708-8fa2-43b6-8090-701b420c2497">
+          <DataType>WChar</DataType>
+          <DataSize>511</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5bd50b8f-8adb-439a-8aeb-e6c9ea5b2e42">
+            <TableID>dbo_cliente_mart</TableID>
+            <ColumnID>nombre_completo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="03630619-62bb-4d80-8f16-66685567d954">
+      <ID>Cliente Mart - Nacionalidad</ID>
+      <Name>Cliente Mart - Nacionalidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="61b7e717-8863-4ac4-9b18-c14ddffa0319">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4a71666b-5afa-43f7-b6c5-7503253c8f59">
+            <TableID>dbo_cliente_mart</TableID>
+            <ColumnID>nacionalidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0c91bd06-c84d-46d5-95d3-579245124650">
+      <ID>Cliente Mart - Origen Cliente</ID>
+      <Name>Cliente Mart - Origen Cliente</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="08b5c2cd-fc86-4a8d-9b1b-2cceb561d628">
+          <DataType>WChar</DataType>
+          <DataSize>18</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="859a44ff-3450-4057-a9b1-e75c5eb65e8a">
+            <TableID>dbo_cliente_mart</TableID>
+            <ColumnID>origen_cliente</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8d77c516-353b-459c-b781-6383052473aa">
+      <ID>Cliente Mart - Telefono</ID>
+      <Name>Cliente Mart - Telefono</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8a7ee257-4bc6-4100-9277-612f1124b9f3">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="54369886-9ca7-41af-aecb-eddb382d9971">
+            <TableID>dbo_cliente_mart</TableID>
+            <ColumnID>telefono</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c2521d70-46b4-42c7-bed3-cac8825c20cc">
+      <ID>Cliente Mart - Correo</ID>
+      <Name>Cliente Mart - Correo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bb444cf3-8294-41eb-ab3c-f9549340c280">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f54f0232-9967-4871-9415-b052eb97cdc3">
+            <TableID>dbo_cliente_mart</TableID>
+            <ColumnID>correo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b3673bef-7990-4460-b59a-ea8fab9dd65f">
+      <ID>Cliente Mart - Fecha Nac</ID>
+      <Name>Cliente Mart - Fecha Nac</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dbcc2057-d43c-4443-b300-d44826c6b9f9">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9251376c-ad3a-44ed-bb02-4b69c0e5fa86">
+            <TableID>dbo_cliente_mart</TableID>
+            <ColumnID>fecha_nac</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3ce9c5b6-0c87-4e9a-a580-ef8089943c35">
+      <ID>Cliente Mart - Edad</ID>
+      <Name>Cliente Mart - Edad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="12677e5d-7b59-4ce0-b2ac-013b6f375791">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3fb79572-1bd0-47e8-8d4a-97e495035dc5">
+            <TableID>dbo_cliente_mart</TableID>
+            <ColumnID>edad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cfbc552d-6b38-4f91-957d-de76baa0b46b">
+      <ID>Cliente Mart - Ocupacion</ID>
+      <Name>Cliente Mart - Ocupacion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ff37478d-ccb7-47e4-becf-6d79c3226547">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="adc55dd2-24ec-4fe0-b352-34910ed40450">
+            <TableID>dbo_cliente_mart</TableID>
+            <ColumnID>ocupacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9347dee7-17a2-4b1d-a4a4-db8444b04d9d">
+      <ID>Cliente Mart - Sexo</ID>
+      <Name>Cliente Mart - Sexo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2a72a54b-2402-46f6-abda-acc1815936e5">
+          <DataType>WChar</DataType>
+          <DataSize>9</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="856e4eab-930d-4068-a30d-63d9aaec65a3">
+            <TableID>dbo_cliente_mart</TableID>
+            <ColumnID>sexo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="70a2b9df-4d1f-4109-82ea-b33b3ba46acc">
+      <ID>Cuarto Mart - Id</ID>
+      <Name>Cuarto Mart - Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="09b721a6-b028-4854-9d8a-3503e9899503">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a534cd14-318e-462d-94bd-6f772272ca1f">
+            <TableID>dbo_cuarto_mart</TableID>
+            <ColumnID>id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="eeb6b7c4-3673-405d-a7c3-30c25a407d78">
+          <AttributeID>Nombre</AttributeID>
+          <Name>Nombre</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3f6070ec-4e7f-44ad-98f9-6acc1581bb04">
+          <AttributeID>Cuarto Mart - Direccion</AttributeID>
+          <Name>Cuarto Mart - Direccion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e75186b4-f5ca-43bb-a980-cf693fd9a4b6">
+          <AttributeID>Cuarto Mart - Piso</AttributeID>
+          <Name>Cuarto Mart - Piso</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="37a7f5e5-7ff1-4a1b-a2d3-fd73e4e168c4">
+          <AttributeID>Cuarto Mart - Precio</AttributeID>
+          <Name>Cuarto Mart - Precio</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="43fc5ecd-dc41-4d81-ab6e-be1738c65008">
+          <AttributeID>Cuarto Mart - Categoria Cuarto</AttributeID>
+          <Name>Cuarto Mart - Categoria Cuarto</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a9b0ae52-b5eb-4e51-8bf5-63775b92b740">
+          <AttributeID>Cuarto Mart - SK Zona</AttributeID>
+          <Name>Cuarto Mart - SK Zona</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d467ef1e-3e51-4c10-92ef-2c49894ec3d2">
+          <AttributeID>Cuarto Mart - Nombre Zona</AttributeID>
+          <Name>Cuarto Mart - Nombre Zona</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="df08ec9b-d8d4-475c-a26b-b78ebc54b17f">
+          <AttributeID>Cuarto Mart - SK Tipo Cuarto</AttributeID>
+          <Name>Cuarto Mart - SK Tipo Cuarto</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d75b62d5-fdc7-4559-ac27-057c3e231d3e">
+          <AttributeID>Cuarto Mart - Nombre Tipo Cuarto</AttributeID>
+          <Name>Cuarto Mart - Nombre Tipo Cuarto</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="69c321b6-7d46-46da-ac7f-1dcf6a16209b">
+          <AttributeID>Cuarto Mart - Amoblado</AttributeID>
+          <Name>Cuarto Mart - Amoblado</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="356e667d-b110-46b4-8508-1534a3e2955a">
+          <AttributeID>Cuarto Mart - Baño</AttributeID>
+          <Name>Cuarto Mart - Baño</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d0c9f783-f3d7-4116-9f20-70530ffd4902">
+      <ID>Nombre</ID>
+      <Name>Nombre</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="05489fff-f667-4969-80ca-201ae1dde3fa">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6f64177a-c31a-4bf3-8f0a-37b154edc23a">
+            <TableID>dbo_cuarto_mart</TableID>
+            <ColumnID>nombre</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="44c36e49-28d0-4a13-a9ea-e7504a6edcaa">
+      <ID>Cuarto Mart - Direccion</ID>
+      <Name>Cuarto Mart - Direccion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="711a76e0-a000-47bd-9265-a407c6f82bd9">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c2b28d9f-bb63-442d-aea4-13b1dcf2130d">
+            <TableID>dbo_cuarto_mart</TableID>
+            <ColumnID>direccion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a863b347-8050-47b3-b59f-c0da178633de">
+      <ID>Cuarto Mart - Piso</ID>
+      <Name>Cuarto Mart - Piso</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="180ea196-c5e3-4e85-be5d-b905e2ac9fbb">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="250b9f17-eab3-4cd6-b0ef-65fc6f212685">
+            <TableID>dbo_cuarto_mart</TableID>
+            <ColumnID>piso</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e4a448d9-1b79-4c49-86be-58521120df2e">
+      <ID>Cuarto Mart - Precio</ID>
+      <Name>Cuarto Mart - Precio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2406eae2-a19a-4bb9-af47-7dcf8eb8ff3d">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="47e534bb-c500-47e4-950e-3044fa17609f">
+            <TableID>dbo_cuarto_mart</TableID>
+            <ColumnID>precio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1571cd3c-a8e6-4b49-8380-75021c58bcc0">
+      <ID>Cuarto Mart - Categoria Cuarto</ID>
+      <Name>Cuarto Mart - Categoria Cuarto</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="de5dfec5-c8e5-421c-bd51-750753596d5a">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6952c9ee-6866-4f32-9777-f8b50ae36f6e">
+            <TableID>dbo_cuarto_mart</TableID>
+            <ColumnID>categoria_cuarto</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2fd047c5-3ab5-43b9-8283-87a335052ae5">
+      <ID>Cuarto Mart - SK Zona</ID>
+      <Name>Cuarto Mart - SK Zona</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4252a3b9-4cba-4c63-b21f-c7b3a3a10708">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="78570b32-247f-4784-b107-75172eaa77ce">
+            <TableID>dbo_cuarto_mart</TableID>
+            <ColumnID>SK_Zona</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a827496f-ad1b-46e5-b8fc-719988d24440">
+      <ID>Cuarto Mart - Nombre Zona</ID>
+      <Name>Cuarto Mart - Nombre Zona</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="95a3d957-221c-4e8d-a881-74d45814a0b4">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32118779-2542-4057-9beb-eac6334e9fe2">
+            <TableID>dbo_cuarto_mart</TableID>
+            <ColumnID>Nombre_Zona</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="29694eff-bfb4-40d5-a603-3d35b4fb0d41">
+      <ID>Cuarto Mart - SK Tipo Cuarto</ID>
+      <Name>Cuarto Mart - SK Tipo Cuarto</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="027dac3d-4438-436f-9fae-f250638df2ec">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="670a0261-adfc-4aba-9884-5f0804473931">
+            <TableID>dbo_cuarto_mart</TableID>
+            <ColumnID>SK_Tipo_Cuarto</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a0d2ab47-f4d1-4e26-8309-7ee4c7152a3f">
+      <ID>Cuarto Mart - Nombre Tipo Cuarto</ID>
+      <Name>Cuarto Mart - Nombre Tipo Cuarto</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="163d2308-0ba9-46f4-8201-2bd0cda60bd3">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5bbc3276-d80c-4cb3-add5-4aed500fddda">
+            <TableID>dbo_cuarto_mart</TableID>
+            <ColumnID>Nombre_Tipo_Cuarto</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="800ea2d6-df60-4f78-80cc-f39ac5d9c040">
+      <ID>Cuarto Mart - Amoblado</ID>
+      <Name>Cuarto Mart - Amoblado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e4cba273-2f2c-422d-a508-9327da7cb482">
+          <DataType>WChar</DataType>
+          <DataSize>22</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="547ef6b0-23a3-4327-b235-d1f0dfa08f1d">
+            <TableID>dbo_cuarto_mart</TableID>
+            <ColumnID>Amoblado</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b45ab9c5-533b-428e-a69b-b0579d2509f0">
+      <ID>Cuarto Mart - Baño</ID>
+      <Name>Cuarto Mart - Baño</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aaae3186-c68c-4995-9089-9a3ecd21d0c4">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="02038b3d-d9a9-49a9-838e-23582c6a3092">
+            <TableID>dbo_cuarto_mart</TableID>
+            <ColumnID>Baño</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="abe50430-4960-42a1-96b7-a9680092f276">
+      <ID>Jerarquía</ID>
+      <Name>Jerarquía</Name>
+      <Levels>
+        <Level dwd:design-time-name="0db5e759-cb0e-4ced-8054-c40091fff3d4">
+          <ID>Renovacion</ID>
+          <Name>Renovacion</Name>
+          <SourceAttributeID>Renovacion</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="acfc28ab-7f65-49f8-9369-da5de3389982">
+          <ID>SK Cliente</ID>
+          <Name>SK Cliente</Name>
+          <SourceAttributeID>SK Cliente</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

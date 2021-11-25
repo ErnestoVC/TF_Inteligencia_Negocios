@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ISP_Londoneasy4u_OLEP", "ISP_Londoneasy4u_OLEP.dtproj", "{1D14ACCA-5C57-447B-AFE2-9FD95E957AB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D14ACCA-5C57-447B-AFE2-9FD95E957AB0}.Development|Default.ActiveCfg = Development
+		{1D14ACCA-5C57-447B-AFE2-9FD95E957AB0}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86652D16-77E7-4C5B-B764-E13BF462E75C}
+	EndGlobalSection
+EndGlobal
